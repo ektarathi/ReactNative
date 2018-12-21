@@ -36,7 +36,7 @@ export default class Profile extends React.Component {
               <Icon active name="paper-plane" />
               <Text>Show User profiles here</Text>
               <Right>
-                <Icon name="ios-close" name="md-close"/>
+                <Icon name="ios-close" name="md-close" />
               </Right>
             </CardItem>
           </Card>
@@ -59,7 +59,7 @@ Profile.navigationOptions = ({ navigation }) => {
       <Header>
         <Left>
           <Button transparent onPress={() => navigation.openDrawer()}>
-            <Icon name='ios-menu' name="md-menu"/>
+            <Icon name="ios-menu" name="md-menu" />
           </Button>
         </Left>
         <Body>
